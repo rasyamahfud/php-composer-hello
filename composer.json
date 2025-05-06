@@ -1,0 +1,20 @@
+{
+    "name": "rasya/belajar-library-hello",
+    "description": "Library composer hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rasya\\BelajarLibraryHello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmad Rasya Mahfud",
+            "email": "rasyahore2@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=8.0"
+    }
+    
+}
